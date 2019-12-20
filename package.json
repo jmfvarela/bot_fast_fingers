@@ -14,8 +14,6 @@
     "node": "^4.3"
   },
   "dependencies": {
-    "chrome-remote-interface": "^0.28.1",
-    "puppeteer": "^2.0.0",
-    "scrape-it": "^3.3.2"
+    "puppeteer": "^2.0.0"
   }
 }
