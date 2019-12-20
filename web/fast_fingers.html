@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Fast fingers</title>
+	<link rel="stylesheet" type="text/css" href="./fast_fingers/style.css">
+
+<body>
+
+<div>
+	<div style="border-radius: 5px;">	
+		<div>
+		
+			<div>
+				<div id="speedtest-main">
+
+					<div>
+						<div id="words">
+							<div id="row1">
+							</div>
+						</div>
+						<div id="input-row">
+							<div style="text-align: center;">
+								<div id="timer">1:00</div>
+							</div>
+							<div>
+								<input type="text" id="inputfield" value="" dir="ltr" placeholder="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+							</div>
+						</div>
+					</div>
+
+					<div id="inputstream" style="display:none;">him something is </div>
+					<div id="wordlist" style="display:none;"></div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="auswertung-result" style="display: none;">
+		<h3>Result</h3>
+		<table class="table table-striped" id="result-table">
+			<tbody>
+				<tr><td class="name" colspan="2"><strong><span id="wpm"></span> WPM</strong>&nbsp;<small>(words per minute)</small></td></tr>
+				<tr><td class="name">Correct words</td><td class="value"> <strong><span id="correct-words"></span></strong></td></tr>
+				<tr><td class="name">Wrong words</td><td class="value"> <strong><span id="wrong-words"></span></strong></td></tr>
+				<tr><td class="name">Accuracy</td><td class="value"> <strong><span id="accuracy"></span>%</strong></td></tr>
+			</tbody>
+		</table>
+	</div>
+
+	<script src="./fast_fingers/jquery.min.js"></script>
+	<script type="text/javascript" src="./fast_fingers/speedtest.js"></script>       
+</html>

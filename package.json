@@ -1,0 +1,21 @@
+{
+  "name": "bot_fast_fingers",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {},
+  "engines": {
+    "node": "^4.3"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.28.1",
+    "puppeteer": "^2.0.0",
+    "scrape-it": "^3.3.2"
+  }
+}
